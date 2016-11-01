@@ -1,0 +1,64 @@
+body {
+    font: bold 12px Arial;
+     }
+a {
+    text-decoration: none;
+  }
+#map{
+    height:500px; 
+    width:auto; 
+    box-shadow: 3px 3px 10px gray;
+    }
+    
+#names { 
+     cursor: pointer; 
+       }
+       
+       
+.eventDispRow {
+    margin: 13px 3px 3px 0px; 
+     text-align: center; 
+     padding: 4px; 
+     display: inline-table;  
+     color: white; 
+     background-color: black; 
+     font-size: 12px; 
+     cursor: pointer;
+     border: 1px solid black; 
+     border-radius:13px; 
+     
+}
+
+
+/* hall */
+.hallTable {
+    border-left:4px solid grey;
+}
+.hallTable p {
+    padding:10px 0; 
+}
+.hallBlock {
+    border: 4px solid grey;
+    padding: 4px; 
+    height: 100px;
+}
+.hallBooked {
+    border: 4px solid green;
+    
+}
+.hallCompany {
+    border-bottom:1px solid grey;
+}
+.centerPath {
+    height: 50px;   
+}
+/* end hall */
+
+
+.help-block{
+	margin: 0;
+}
+.validationError {
+	color:  red;
+	text-align: right;
+}
